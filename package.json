@@ -1,0 +1,28 @@
+{
+  "name": "spat-stats",
+  "version": "0.0.1",
+  "description": "attempt at doing spatial statistics with turf + other packages Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxgrossman/spat-stats.git"
+  },
+  "keywords": [
+    "moran's-i",
+    "geography-is-awesome"
+  ],
+  "author": "Max Grossman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxgrossman/spat-stats/issues"
+  },
+  "homepage": "https://github.com/maxgrossman/spat-stats#readme",
+  "dependencies": {
+    "@turf/distance": "^4.1.0",
+    "@turf/invariant": "^4.1.0",
+    "mathjs": "^3.12.0"
+  }
+}
